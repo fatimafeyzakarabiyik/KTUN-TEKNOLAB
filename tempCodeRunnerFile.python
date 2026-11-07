@@ -1,0 +1,37 @@
+print("hello world")
+x=7 #integer
+print(x)
+isim="Feyza" #string
+fiyat= 12.81 #float
+AldiMi=False #boolean
+print(isim) #feyza
+print("isim") #isim
+print(type(isim)) #string
+
+isim =input("İsminiz Nedir? ") #kullanıcı girişi
+print("Merhaba "+isim)
+
+yemek = input("En sevdiginiz yemek nedir? ")
+print(isim + " " + yemek + " " + "sever") 
+
+yas = 21
+print(isim + " " + str(yas) + " " + "yaşında") #str tür değiştirdik
+
+#tür değiştirme int()  float() str() bool()
+
+#Matematik islemi
+
+x= 3
+y= 3
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x // y) #virgül öncesi
+print(x % y) #kalan
+print(x ** y) #üs
+
+x= input("ilk sayiyi giriniz ")
+y= input("ikinci sayiyi giriniz ")
+print(int(x) + int(y))
